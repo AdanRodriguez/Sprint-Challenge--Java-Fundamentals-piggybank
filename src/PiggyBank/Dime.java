@@ -21,6 +21,7 @@ public class Dime extends AbstractMoney
     }
 
     //abstract methods
+
     @Override
     public double getValue() 
     {
@@ -33,9 +34,4 @@ public class Dime extends AbstractMoney
         return name;
     }
 
-    // @Override
-    // public double getAmount() 
-    // {
-    //     return amount;
-    // }
 }

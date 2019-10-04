@@ -20,6 +20,7 @@ public class Penny extends AbstractMoney
     }
 
     //abstract methods
+    
     @Override
     public double getValue() 
     {

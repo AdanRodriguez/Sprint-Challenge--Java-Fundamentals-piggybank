@@ -32,10 +32,4 @@ public class Nickel extends AbstractMoney
     {
         return name;
     }
-
-    // @Override
-    // public double getAmount() 
-    // {
-    //     return amount;
-    // }
 }

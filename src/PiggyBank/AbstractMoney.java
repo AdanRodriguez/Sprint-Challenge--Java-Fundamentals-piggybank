@@ -20,6 +20,7 @@ public abstract class AbstractMoney
     public abstract String getName();
     public abstract double getValue();
 
+
     // getters and settters
     public int getAmount()
     {

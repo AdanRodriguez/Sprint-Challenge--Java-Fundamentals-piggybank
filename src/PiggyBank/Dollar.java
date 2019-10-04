@@ -32,4 +32,5 @@ public class Dollar extends AbstractMoney
     {
         return name;
     }
+
 }
