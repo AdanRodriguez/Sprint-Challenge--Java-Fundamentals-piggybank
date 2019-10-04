@@ -22,7 +22,7 @@ public class Main
         money.add(new Penny(10));
 
         //prints list of money
-        money.forEach(m -> System.out.println(m.getAmount() + " " + m.getName()));
+        money.forEach(m -> System.out.println(m.totalAmount()));
 
         //for loop adding sum of all to piggybank
         double total = 0;

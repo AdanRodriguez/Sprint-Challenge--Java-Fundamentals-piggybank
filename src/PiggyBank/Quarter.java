@@ -33,4 +33,10 @@ public class Quarter extends AbstractMoney
         return name;
     }
 
+    @Override
+    public String totalAmount()
+    {
+        return amount + " " + name;
+    }
+
 }

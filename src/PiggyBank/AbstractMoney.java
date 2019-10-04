@@ -16,9 +16,11 @@ public abstract class AbstractMoney
         amount = 1;
     }
 
+    
     //abstract methods passed to child classes
     public abstract String getName();
     public abstract double getValue();
+    public abstract String totalAmount();
 
 
     // getters and settters
