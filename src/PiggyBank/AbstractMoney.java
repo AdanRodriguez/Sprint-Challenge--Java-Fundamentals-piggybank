@@ -2,9 +2,11 @@ package PiggyBank;
 
 public abstract class AbstractMoney 
 {
+    //fields
     protected double amount;
 
-    public AbstractMoney(int amount) 
+    //constructors
+    public AbstractMoney(double amount) 
     {
         this.amount = amount;
     }
@@ -14,10 +16,19 @@ public abstract class AbstractMoney
         amount = 1;
     }
 
+    //abstract methods passed to child classes
     public abstract String getName();
-
     public abstract double getValue();
 
-    public abstract double getAmount();
+    // getters and settters
+    public double getAmount()
+    {
+        return amount;
+    }
 
+    public void setAmount(int amount)
+    {
+        this.amount = amount;
+    }
+    
 }

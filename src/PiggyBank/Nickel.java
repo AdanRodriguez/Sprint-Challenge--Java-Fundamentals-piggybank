@@ -1,23 +1,23 @@
 package PiggyBank;
 
-public class Dollar extends AbstractMoney 
+public class Nickel extends AbstractMoney 
 {
     //fields
     private String name;
     private double value;
 
     //constructors
-    public Dollar(int amount) 
+    public Nickel(int amount) 
     {
         super(amount);
-        this.value = 1.00;
-        this.name = "Dollars";
+        this.value = 0.05;
+        this.name = "Nickels";
     }
 
-    public Dollar() 
+    public Nickel() 
     {
-        this.value = 1.00;
-        this.name = "Dollar";
+        this.value = 0.05;
+        this.name = "Nickel";
     }
 
     //abstract methods
@@ -32,4 +32,10 @@ public class Dollar extends AbstractMoney
     {
         return name;
     }
+
+    // @Override
+    // public double getAmount() 
+    // {
+    //     return amount;
+    // }
 }
