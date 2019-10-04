@@ -3,10 +3,10 @@ package PiggyBank;
 public abstract class AbstractMoney 
 {
     //fields
-    protected double amount;
+    protected int amount;
 
     //constructors
-    public AbstractMoney(double amount) 
+    public AbstractMoney(int amount) 
     {
         this.amount = amount;
     }
@@ -21,7 +21,7 @@ public abstract class AbstractMoney
     public abstract double getValue();
 
     // getters and settters
-    public double getAmount()
+    public int getAmount()
     {
         return amount;
     }
